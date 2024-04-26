@@ -24,7 +24,11 @@ Requires [Dart programming language | Dart](https://dart.dev/).
 Requires [Flutter](https://flutter.dev/).
 Requires [FVM](https://fvm.app/).
 
-Install the dependencies and devDependenciesr.
+## OneSignal (Push Notifications)
+
+- In the /lib/my_webview.dart file on line 17 change "513c09e4-7fdb-4c49-b529-469132f5301b" to your One Signal ID. final String singal = "513c09e4-7fdb-4c49-b529-469132f5301b";
+
+## Install the dependencies and dev Dependencies.
 
 ```sh
 fvm use 3.7.10
